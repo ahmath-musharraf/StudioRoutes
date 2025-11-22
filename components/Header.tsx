@@ -63,7 +63,7 @@ const Header: React.FC = () => {
                 
                 {/* Slogan */}
                 {/*<span className="font-sans text-[3px] tracking-[0.15em] mt-0.5 uppercase text-gray-200 relative z-10">Everything has beauty</span> */}
-           {/*</div> */} */}
+           {/*</div> */}
 
         </div>
 
