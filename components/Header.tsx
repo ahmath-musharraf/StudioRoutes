@@ -51,7 +51,7 @@ const Header: React.FC = () => {
 
            {/* OPTION 2: CSS BADGE (Current - Comment this out if using image) */}
           
-           <div className="w-16 h-16 bg-brand-red rounded-full flex flex-col items-center justify-center text-white shadow-xl border border-white/10 transition-transform duration-300 group-hover:scale-110 relative overflow-hidden">
+         {/*  <div className="w-16 h-16 bg-brand-red rounded-full flex flex-col items-center justify-center text-white shadow-xl border border-white/10 transition-transform duration-300 group-hover:scale-110 relative overflow-hidden"> */}
                 {/* Subtle Shine */}
                 {/* <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/10 to-transparent rounded-t-full pointer-events-none"></div> */}
                 
