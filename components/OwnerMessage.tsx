@@ -15,7 +15,7 @@ const OwnerMessage: React.FC = () => {
                 or replace the src below with your specific image URL.
               */}
               <img 
-                src="/founder.jpg" 
+                src="https://raw.githubusercontent.com/ahmath-musharraf/StudioRoutes/refs/heads/main/Founder.jpg" 
                 alt="Founder of Studio Routes" 
                 className="w-full h-[500px] object-cover grayscale hover:grayscale-0 transition-all duration-700 ease-in-out"
               />
