@@ -28,8 +28,28 @@ const Header: React.FC = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-        {/* Logo Badge */}
+        {/* Logo Section */}
         <div className="group cursor-pointer" onClick={() => window.location.href = '#'}>
+           
+           {/* 
+              -----------------------------------------------------------------
+              HOW TO CHANGE LOGO:
+              1. Add your logo image (e.g., 'logo.png') to your public/assets folder.
+              2. UNCOMMENT the <img /> tag below.
+              3. COMMENT OUT the CSS Badge <div> section below it.
+              -----------------------------------------------------------------
+           */}
+
+           {/* OPTION 1: IMAGE LOGO (Uncomment this block to use your file) */}
+           {/* 
+           <img 
+             src="/logo.png" 
+             alt="Studio Routes" 
+             className="w-16 h-16 md:w-20 md:h-20 object-contain hover:scale-110 transition-transform duration-300 drop-shadow-md" 
+           />
+           */}
+
+           {/* OPTION 2: CSS BADGE (Current - Comment this out if using image) */}
            <div className="w-16 h-16 bg-brand-red rounded-full flex flex-col items-center justify-center text-white shadow-xl border border-white/10 transition-transform duration-300 group-hover:scale-110 relative overflow-hidden">
                 {/* Subtle Shine */}
                 <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/10 to-transparent rounded-t-full pointer-events-none"></div>
@@ -43,6 +63,7 @@ const Header: React.FC = () => {
                 {/* Slogan */}
                 <span className="font-sans text-[3px] tracking-[0.15em] mt-0.5 uppercase text-gray-200 relative z-10">Everything has beauty</span>
             </div>
+
         </div>
 
         {/* Desktop Nav */}
