@@ -56,14 +56,14 @@ const Header: React.FC = () => {
                 {/* <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/10 to-transparent rounded-t-full pointer-events-none"></div> */}
                 
                 {/* Studio */}
-               {/* <span className="font-script text-[11px] leading-none mt-1 text-white relative z-10 transform -rotate-3">Studio</span> */}
+                {/* <span className="font-script text-[11px] leading-none mt-1 text-white relative z-10 transform -rotate-3">Studio</span> */}
                 
                 {/* Routes */}
-               {/* <span className="font-serif text-xl leading-none tracking-tight relative z-10 font-medium -mt-1">Routes</span> */}
+                {/* <span className="font-serif text-xl leading-none tracking-tight relative z-10 font-medium -mt-1">Routes</span> */}
                 
                 {/* Slogan */}
-              {/*   <span className="font-sans text-[3px] tracking-[0.15em] mt-0.5 uppercase text-gray-200 relative z-10">Everything has beauty</span> */}
-            </div>
+                {/*<span className="font-sans text-[3px] tracking-[0.15em] mt-0.5 uppercase text-gray-200 relative z-10">Everything has beauty</span> */}
+           {/*</div> */} */}
 
         </div>
 
