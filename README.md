@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Studio Routes
 
-# Run and deploy your AI Studio app
+Photography & Videography Reimagined Created by: Mushi Editz
 
-This contains everything you need to run your app locally.
+Studio Routes is a modern creative studio dedicated to capturing stories
+with clarity, emotion, and cinematic flair. Whether it’s portraits,
+events, branded content, or lifestyle visuals, our mission is simple —
+turn moments into timeless visuals.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1-ldaNRiim_dSr1bV8F0oXeBLxzS9yV_A
+About Studio Routes
 
-## Run Locally
+Studio Routes blends artistry with technology to craft visuals that
+speak louder than words. From stunning photography to impactful
+videography, every project is handled with a storyteller’s mindset and
+an editor’s precision.
 
-**Prerequisites:**  Node.js
+What We Do
 
+-   Professional Photography
+-   Cinematic Videography
+-   Event Coverage
+-   Creative Direction
+-   Editing & Post-Production
+-   Social Media Content Creation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Vision
+
+Every frame tells a story. Every story deserves to be captured
+beautifully. Studio Routes exists to bring those stories to life.
+
+Creator
+
+Mushi Editz Creative Editor • Visual Storyteller • Digital Creator
