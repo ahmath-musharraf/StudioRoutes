@@ -42,7 +42,7 @@ const instagramPosts: InstagramDisplayPost[] = [
   },
   { 
     id: 2, 
-    category: 'Portrait', 
+    category: 'Wedding', 
     image: 'https://www.instagram.com/p/DN70QBRjf2o/media/?size=l', 
     likes: '1,856', 
     type: 'image', 
@@ -50,7 +50,7 @@ const instagramPosts: InstagramDisplayPost[] = [
   },
   { 
     id: 3, 
-    category: 'BTS', 
+    category: 'Wedding', 
     image: 'https://www.instagram.com/p/DRM9b52DSp8/media/?size=l', 
     likes: '1,204', 
     type: 'video', 
@@ -74,7 +74,7 @@ const instagramPosts: InstagramDisplayPost[] = [
   },
   { 
     id: 6, 
-    category: 'Portrait', 
+    category: 'Wedding', 
     image: 'https://images.unsplash.com/photo-1521119989659-a83eee488058?q=80&w=400&auto=format&fit=crop', 
     likes: '1,567', 
     type: 'image', 
@@ -82,7 +82,7 @@ const instagramPosts: InstagramDisplayPost[] = [
   },
   { 
     id: 7, 
-    category: 'Travel', 
+    category: 'Wedding', 
     image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=400&auto=format&fit=crop', 
     likes: '2,090', 
     type: 'video', 
@@ -90,7 +90,7 @@ const instagramPosts: InstagramDisplayPost[] = [
   },
   { 
     id: 8, 
-    category: 'BTS', 
+    category: 'Wedding', 
     image: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=400&auto=format&fit=crop', 
     likes: '720', 
     type: 'carousel', 
