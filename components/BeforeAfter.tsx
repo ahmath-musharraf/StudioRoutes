@@ -85,7 +85,7 @@ const BeforeAfter: React.FC = () => {
             {/* AFTER Image (Background - The Final Result) */}
             <div className="absolute inset-0">
               <img 
-                src="https://images.unsplash.com/photo-1511285560982-1351cdeb9821?q=80&w=2070&auto=format&fit=crop" 
+                src="https://raw.githubusercontent.com/ahmath-musharraf/StudioRoutes/refs/heads/main/RoutesImage/after.jpg" 
                 alt="Color Graded Final" 
                 className="w-full h-full object-cover"
                 draggable={false}
@@ -101,7 +101,7 @@ const BeforeAfter: React.FC = () => {
               style={{ width: `${sliderPosition}%` }}
             >
               <img 
-                src="https://images.unsplash.com/photo-1511285560982-1351cdeb9821?q=80&w=2070&auto=format&fit=crop" 
+                src="https://raw.githubusercontent.com/ahmath-musharraf/StudioRoutes/refs/heads/main/RoutesImage/Before.png" 
                 alt="Raw Footage" 
                 className="h-full object-cover max-w-none"
                 // Force width to match the container, preventing squashing
