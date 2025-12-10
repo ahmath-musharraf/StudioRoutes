@@ -38,7 +38,7 @@ const instagramPosts: InstagramDisplayPost[] = [
     image: 'https://www.instagram.com/p/DN70tX_DWNw/', 
     likes: '2,431', 
     type: 'carousel', 
-    permalink: 'https://www.instagram.com/p/DN70tX_DWNw/' 
+    permalink: 'https://www.instagram.com/p/DSEh8PQiP1v/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
   { 
     id: 2, 
@@ -46,7 +46,7 @@ const instagramPosts: InstagramDisplayPost[] = [
     image: 'https://www.instagram.com/p/DN70QBRjf2o/media/?size=l', 
     likes: '1,856', 
     type: 'image', 
-    permalink: 'https://www.instagram.com/p/DN70QBRjf2o/' 
+    permalink: 'https://www.instagram.com/p/DRednhbjeHo/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
   { 
     id: 3, 
@@ -54,7 +54,7 @@ const instagramPosts: InstagramDisplayPost[] = [
     image: 'https://www.instagram.com/p/DRM9b52DSp8/media/?size=l', 
     likes: '1,204', 
     type: 'video', 
-    permalink: 'https://www.instagram.com/p/DRM9b52DSp8/' 
+    permalink: 'https://www.instagram.com/p/DQ3W0cqjYve/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
   { 
     id: 4, 
@@ -62,7 +62,7 @@ const instagramPosts: InstagramDisplayPost[] = [
     image: 'https://www.instagram.com/p/DQ3dtTZDegy/media/?size=l', 
     likes: '943', 
     type: 'image', 
-    permalink: 'https://www.instagram.com/p/DQ3dtTZDegy/' 
+    permalink: 'https://www.instagram.com/p/DQrMRHajRlJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
   { 
     id: 5, 
@@ -70,7 +70,7 @@ const instagramPosts: InstagramDisplayPost[] = [
     image: 'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=400&auto=format&fit=crop', 
     likes: '3,102', 
     type: 'image', 
-    permalink: 'https://www.instagram.com/studioroutes/' 
+    permalink: 'https://www.instagram.com/p/DQgbMxLjekd/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
   { 
     id: 6, 
@@ -78,7 +78,7 @@ const instagramPosts: InstagramDisplayPost[] = [
     image: 'https://images.unsplash.com/photo-1521119989659-a83eee488058?q=80&w=400&auto=format&fit=crop', 
     likes: '1,567', 
     type: 'image', 
-    permalink: 'https://www.instagram.com/studioroutes/' 
+    permalink: 'https://www.instagram.com/p/DP5erchiJI3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
   { 
     id: 7, 
@@ -86,7 +86,7 @@ const instagramPosts: InstagramDisplayPost[] = [
     image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=400&auto=format&fit=crop', 
     likes: '2,090', 
     type: 'video', 
-    permalink: 'https://www.instagram.com/studioroutes/' 
+    permalink: 'https://www.instagram.com/p/DPYOA0BDcTb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
   { 
     id: 8, 
@@ -94,7 +94,7 @@ const instagramPosts: InstagramDisplayPost[] = [
     image: 'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=400&auto=format&fit=crop', 
     likes: '720', 
     type: 'carousel', 
-    permalink: 'https://www.instagram.com/studioroutes/' 
+    permalink: 'https://www.instagram.com/p/DPOG7sQDXAq/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
   { 
     id: 9, 
@@ -102,7 +102,7 @@ const instagramPosts: InstagramDisplayPost[] = [
     image: 'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=400&auto=format&fit=crop', 
     likes: '2,940', 
     type: 'image', 
-    permalink: 'https://www.instagram.com/studioroutes/' 
+    permalink: 'https://www.instagram.com/p/DOtDHSqDRO4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==' 
   },
 ];
 
