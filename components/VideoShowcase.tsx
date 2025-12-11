@@ -14,10 +14,10 @@ interface VideoProject {
 const videos: VideoProject[] = [
   {
     id: 101,
-    type: 'instagram',
-    url: "DQySjQkiMdE", 
-    title: "Collaboration Series I",
-    category: "Reel",
+    type: 'facebook',
+    url: "https://www.facebook.com/reel/1424350269307404", 
+    title: "Sattar Elite Wedding Hall & Rooms",
+    category: "Promation Shoot",
     duration: "Watch"
   },
   {
