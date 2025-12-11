@@ -73,13 +73,16 @@ const videos: VideoProject[] = [
 
 // Reusable Logo Placeholder Component to match branding
 const LogoPlaceholder: React.FC<{ small?: boolean }> = ({ small }) => (
-  <div className="w-full h-full bg-zinc-900 flex items-center justify-center border border-zinc-800">
-    <div className={`${small ? 'w-10 h-10' : 'w-20 h-20'} bg-brand-red rounded-full flex flex-col items-center justify-center text-white shadow-xl border border-white/10 relative overflow-hidden transition-transform`}>
-        <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-white/10 to-transparent rounded-t-full pointer-events-none"></div>
-        <span className={`font-script ${small ? 'text-[8px]' : 'text-xs'} leading-none mt-1 text-white relative z-10 transform -rotate-3`}>Studio</span>
-        <span className={`font-serif ${small ? 'text-sm' : 'text-2xl'} leading-none tracking-tight relative z-10 font-medium -mt-1`}>Routes</span>
-        {!small && <span className="font-sans text-[3px] tracking-[0.15em] mt-0.5 uppercase text-gray-200 relative z-10">Everything has beauty</span>}
-    </div>
+  <div className="w-full h-full bg-zinc-900 flex items-center justify-center border border-zinc-800 relative overflow-hidden group-hover:bg-zinc-800 transition-colors">
+    {/* 
+        Replaced text format with Image Logo.
+        Ensure you have a 'logo.png' file in your public folder. 
+    */}
+    <img 
+      src="https://raw.githubusercontent.com/ahmath-musharraf/StudioRoutes/refs/heads/main/StudioRoutesLogo.png" 
+      alt="Studio Routes Logo"
+      className={`${small ? 'w-8 h-8' : 'w-24 h-24'} object-contain opacity-90 drop-shadow-lg`} 
+    />
   </div>
 );
 
