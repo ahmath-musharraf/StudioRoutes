@@ -15,7 +15,7 @@ const videos: VideoProject[] = [
     {
     id: 1,
     type: 'facebook',
-    url: "https://www.facebook.com/facebook/videos/10153231379946729/",
+    url: "10153231379946729",
     title: "Sattar Elite Wedding Hall & Rooms",
     category: "Promation Shoot",
     duration: "Watch",
