@@ -21,14 +21,6 @@ const videos: VideoProject[] = [
     duration: "Watch",
   },
   {
-    id: 101,
-    type: 'facebook',
-    url: "https://www.facebook.com/share/v/17VjDM9CAm/", 
-    title: "Sattar Elite Wedding Hall & Rooms",
-    category: "Promation Shoot",
-    duration: "Watch"
-  },
-  {
     id: 102,
     type: 'instagram',
     url: "DOxsFmKjRKM", 
