@@ -77,11 +77,17 @@ const LogoPlaceholder: React.FC<{ small?: boolean }> = ({ small }) => (
     {/* 
         Replaced text format with Image Logo.
         Ensure you have a 'logo.png' file in your public folder. 
+        If not, the alt text will show or it will be empty.
     */}
     <img 
       src="https://raw.githubusercontent.com/ahmath-musharraf/StudioRoutes/refs/heads/main/StudioRoutesLogo.png" 
       alt="Studio Routes Logo"
-      className={`${small ? 'w-8 h-8' : 'w-24 h-24'} object-contain opacity-90 drop-shadow-lg`} 
+      className={`${small ? 'w-8 h-8' : 'w-24 h-24'} object-contain opacity-90 drop-shadow-lg`}
+      onError={(e) => {
+        // Simple fallback if logo.png is missing to avoid broken image icon
+        e.currentTarget.style.display = 'none';
+        e.currentTarget.parentElement?.classList.add('after:content-["Studio_Routes"]', 'after:text-gray-500', 'after:text-xs');
+      }} 
     />
   </div>
 );
@@ -111,7 +117,7 @@ const VideoShowcase: React.FC = () => {
   // Determine the best URL to use based on cache state or initial priority
   const getOptimizedThumbnail = (video: VideoProject): string | null => {
     // 1. Check Cache
-    if (video.id in thumbnailCache) {
+    if (thumbnailCache && video.id in thumbnailCache) {
         return thumbnailCache[video.id].url;
     }
 
