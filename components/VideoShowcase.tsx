@@ -12,6 +12,14 @@ interface VideoProject {
 }
 
 const videos: VideoProject[] = [
+    {
+    id: 1,
+    type: 'facebook',
+    url: "https://www.facebook.com/reel/1424350269307404",
+    title: "Sattar Elite Wedding Hall & Rooms",
+    category: "Promation Shoot",
+    duration: "Watch",
+  },
   {
     id: 101,
     type: 'facebook',
@@ -45,7 +53,7 @@ const videos: VideoProject[] = [
     duration: "4:12"
   },
   {
-    id: 1,
+    id: 2,
     type: 'facebook',
     url: "https://www.facebook.com/share/v/1HFvERAT5m/",
     title: "Studio Routes Highlight",
